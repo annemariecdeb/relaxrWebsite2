@@ -1,0 +1,254 @@
+.devmode .row {
+	width: 100%;
+}
+
+body {
+  background: #f0efef;
+}
+
+.container {
+	background-color: #f0efef; 
+	max-width: 960px;
+	margin: 0 auto;
+	column-width: 700px;
+  	border-left: 100px;
+  	border-right: 100px;
+
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+
+ }
+
+
+/******************/
+
+div {
+	box-sizing: border-box;
+}
+
+hr {
+	border-color: #033048;
+}
+
+.Header {
+	background-color: #033048; 
+ 	width: 100%;
+    padding: 20px 20px;
+  	overflow: hidden;
+
+ }
+
+.Header__title {
+	font-family: "Open Sans", sans-serif;
+	color: #FFFFFF;
+	font-size: 48px;
+	font-weight:;
+  	font-weight: 800;
+  	float: left;
+  	margin-top: 20px;
+  	margin-left: 60px;
+}
+
+.Header__nav {
+	float: right;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+
+.main-nav-link {
+	display: inline-block;
+  	font-family: "Open Sans", sans-serif;
+  	font-size: 24px;
+	color: #f9e42e;
+	text-decoration: none;
+	padding-right: 90px;
+	margin: 0 0 40px;
+	float: right;
+}
+
+.col {
+    float: left;
+    border: 5px solid transparent;
+    min-height: 400px;
+    box-sizing: border-box;
+}
+
+.col-one-third {
+    width: 33.333333%;
+    padding-left: 100px;
+}
+
+.col-two-third {
+    width: 66.666666%;
+}
+
+.Blogpost__title {
+	font-family: "Open Sans", sans-serif;
+	color: #033048;
+	margin-top: 80px;
+	font-weight: 600;
+  	font-size: 35px;
+  	line-height: 1.0;
+  	margin-top: 45px;
+  	margin-bottom: 30px;
+  	text-align: justify;
+}
+
+.Blogpost__image {
+	margin-bottom: 30px;
+}
+
+.Blogpost__content {
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+  	line-height: 1.2;
+  	color: #606161;
+  	margin-bottom: 20px;
+  	text-align: justify;
+
+}
+
+.Blogpost__content::first-letter {
+  font-size: 200%;
+ 
+}
+
+.Blogpost__full{
+  	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+  	font-size: 24px;
+  	color: #033048;
+  	margin-top: 30px;
+  	text-decoration: none;
+  	align-content: right; 
+}
+
+.Aside-nav {
+ 
+}
+
+.Aside-nav__title {
+	font-family: "Open Sans", sans-serif;
+	color: #033048;
+	margin-top: 80px;
+	font-weight: 600;
+  	font-size: 30px;
+  	line-height: 1.3;
+  	margin-top: 45px;
+  	margin-bottom: 20px;
+  	text-align: left;
+}
+
+li {
+	font-family: "Open Sans", sans-serif;
+	display: inline-block;
+  	margin: 0 0 0 40px;
+  	font-size: 22px;
+  	color: grey;
+  	text-decoration: none;
+  	margin-left: 5px;
+}
+
+p {
+	font-family: "Open Sans", sans-serif;
+	color: #033048;
+  	font-size: 22px;
+}
+
+.Aside-article {
+	
+}
+
+.Aside-article__title {
+	font-family: "Open Sans", sans-serif;
+	color: #033048;
+	margin-top: 80px;
+	font-weight: 600;
+  	font-size: 30px;
+  	line-height: 1.3;
+  	margin-top: 45px;
+  	margin-bottom: 20px;
+  	text-align: left;
+}
+
+.Aside-article__full {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+  	font-size: 20px;
+  	color: #033048;
+  	margin-top: 50px;
+  	text-decoration: none;
+  	text-align: right;
+  	padding-left: 6px;
+
+}
+
+.Aside-nav__image {
+	padding-top: 40px;
+}
+
+.CTA {
+	width: 100%;
+}
+.Bottom__CTA {
+  	background: #f9e42e;
+  	padding: 30px;
+  	text-align: center;
+  	margin-top: 10px;
+  	width: 100%
+}
+
+.button {
+  	font-family: "Open Sans", sans-serif;
+  	border-radius: 5px;
+  	font-weight: 800;
+  	padding: 12px 0;
+  	width: 280px;
+  	font-size: 20px;
+  	text-align: center;
+  	display: block;
+  	margin: 0 auto;
+  	text-decoration: none;
+}
+
+.blue {
+  	background: #033048;
+  	color: #FFFFFF;
+}
+
+.Footer {
+  	background: #121212;
+ 	padding: 65px 0 45px;
+  	text-align: center;
+  	width: 100%;
+}
+
+.Header__title--footer {
+  	font-family: "Open Sans", sans-serif;
+	color: #f9e42e;
+	font-size: 40px;
+  	font-weight: 800;
+  	float: center;
+  	margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.Footer__nav {
+  	display: inline-block;
+  	list-style: none;
+  	margin: 0 26px 20px;
+  	word-spacing: 30px;
+}
+
+.Copyright {
+  	font-family: "Open Sans", sans-serif;
+  	font-size: 12px;
+  	color: #FFFFFF;
+  	font-weight: 500;
+
+}
